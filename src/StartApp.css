@@ -1,0 +1,7 @@
+/*siempre se va a alinear al centro al darle scroll como en la pagina original*/
+
+.AppitemsContainer {
+    scroll-snap-type:y mandatory;
+    overflow: auto;
+    height: 100vh;
+}

@@ -1,0 +1,57 @@
+/*En estilo item es un poco diferente a los demas asi que debemos ser especificos*/
+.item {
+    /*
+    100 vh es lo mejor para que la imagen siempre ocupe todo lo alto 
+    URL: https://devcode.la/tutoriales/unidades-vh-vw-css/
+    */
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    scroll-snap-align: start;
+}
+
+.contenedorItem_{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.Textoitem_{
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    font-size: 34px;
+    color: #393c41;
+    align-items: center;
+    flex: 1;
+}
+
+.DescripcionIt{
+    font-weight: 200;
+    font-size: 14px;
+
+}
+
+.LowerItem{
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ItemButtons {
+    display: flex;
+    text-align: center;
+}
+
+.Expander_item{
+    color: white;
+    width: 100%;
+    margin-top: 3%;
+    justify-content: center;
+}
